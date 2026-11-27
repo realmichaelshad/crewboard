@@ -1,0 +1,32 @@
+{
+  "name": "crewboard",
+  "version": "1.0.0",
+  "description": "A week planner for field crews that replans the whole board in one press.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "vite build && playwright test"
+  },
+  "keywords": [],
+  "author": "Michael Shadpour (https://michaelshadpour.com)",
+  "license": "MIT",
+  "homepage": "https://michaelshadpour.com/work/crewboard",
+  "repository": "github:realmichaelshad/crewboard",
+  "type": "module",
+  "dependencies": {
+    "@fontsource/barlow": "^5.3.0",
+    "@fontsource/barlow-semi-condensed": "^5.3.0",
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "prettier": "^3.10.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}
